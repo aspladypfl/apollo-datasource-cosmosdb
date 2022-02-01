@@ -8,6 +8,7 @@
   "repository": "https://github.com/andrejpk/apollo-datasource-cosmosdb",
   "author": "Andrej Kyselica",
   "license": "MIT",
+  "install": "npm run build",
   "keywords": [
     "apollo",
     "graphql",

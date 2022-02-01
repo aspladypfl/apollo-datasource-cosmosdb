@@ -3,6 +3,7 @@
   "version": "0.0.17",
   "description": "An Apollo data source for Azure CosmosDB",
   "main": "dist/index.js",
+  "prepare": "npm run build",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/andrejpk/apollo-datasource-cosmosdb",
   "author": "Andrej Kyselica",
@@ -17,6 +18,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
     "watch": "tsc --watch",
     "test": "ts-mocha tests/**/*.test.ts",
     "coverage": "nyc npm test",
@@ -51,6 +53,6 @@
     "dataloader": "2.0.0"
   },
   "files": [
-    "/dist"
+    "dist/**/*"
   ]
 }

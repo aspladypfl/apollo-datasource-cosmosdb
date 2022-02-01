@@ -19,7 +19,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
     "install": "npm run build",
     "watch": "tsc --watch",
     "test": "ts-mocha tests/**/*.test.ts",
